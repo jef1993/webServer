@@ -1,0 +1,33 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "\"# webServer\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jef1993/webServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jef1993/webServer/issues"
+  },
+  "homepage": "https://github.com/jef1993/webServer#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "mongoose": "^6.0.6",
+    "nodemon": "^2.0.12"
+  }
+}
